@@ -1,0 +1,25 @@
+.Content {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Content .Message {
+  position: relative;
+  max-width: 600px;
+}
+
+.Content .Message h2 {
+  color: #ae2012;
+  font-size: 4em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
+.Content .Response {
+  width: 600px;
+  display: flex;
+  justify-content: flex-end;
+}
