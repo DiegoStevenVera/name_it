@@ -1,4 +1,5 @@
 import './App.css';
+import UploadAndDisplayImage from '../Uploader/Uploader.js';
 
 function App() {
   return (
@@ -9,7 +10,7 @@ function App() {
           <p>Con esta simple aplicación puedes escoger de los mejores nombres para tu mascota. Realizado con inteligencia artificial para que puedas escoger un buen nombre.</p>
         </div>
         <div className='Response'>
-          Aquí irá la respuesta del modelo. :)
+          <UploadAndDisplayImage />
         </div>
       </div>
       
