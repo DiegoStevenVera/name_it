@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
-  background-color: #ee9b00;
+  /* background-color: #ee9b00; */
+  
 }
 
 .Section {
@@ -14,5 +15,5 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: aliceblue;
+  background: linear-gradient(to bottom, #ffda9e, #fdf9c4  );
 }

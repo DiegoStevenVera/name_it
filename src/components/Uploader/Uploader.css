@@ -1,0 +1,55 @@
+.imgUploader {
+  color: #a68069;
+}
+
+.imgLoad {
+  width: 25%;
+  height: 25%;
+  padding-top: 3%;
+}
+
+.buttonLoad {
+  color: #fdf9c4; /* Establecer el color del texto */
+  background-color: #544646;
+  border: none;
+  padding: 6px 12px; /* Establecer el espacio entre el texto y los bordes del botón */
+  text-align: center; /* Centrar el texto dentro del botón */
+  text-decoration: none; /* Quitar cualquier subrayado por defecto */
+  display: inline-block; /* Convertir el botón en un elemento en línea con un tamaño fijo */
+  font-size: 14px; /* Establecer el tamaño de fuente */
+  cursor: pointer; /* Cambiar el cursor del mouse a una mano para indicar que el botón es interactivo */
+  border-radius: 5px; /* Establecer el radio de las esquinas del botón */
+}
+
+.buttonLoad:hover {
+  color: #fdf9c4; /* Establecer el color del texto */
+  background-color: #423434;
+}
+
+#removeButton {
+  margin-top: 1%;
+}
+
+#myFile {
+  display: none;
+}
+
+.customButton {
+  color: inherit;
+  padding: 1% 2%;
+}
+
+
+.customButton:hover {
+  border: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.petName {
+  margin: 2% 4%;
+  font-weight: bold;
+  color: #544646;
+}

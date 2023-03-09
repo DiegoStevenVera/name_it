@@ -14,6 +14,12 @@
     max-width: 80px;
 }
 
+.Header .Logo img{
+    width: 100%;
+    /* padding-top: 10%; */
+    height: auto;
+}
+
 .Header ul {
     position: relative;
     display: flex;
@@ -23,10 +29,20 @@
     list-style: None;
 }
 
-.Header ul li .Contact {
+.Contact {
     display: inline-block;
-    color: #333;
+    color: #a68069;
     font-weight: 400;
     margin-left: 40px;
     text-decoration: None;
+}
+
+.enlace {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.enlace:hover {
+    color: #544646;
+    cursor: pointer;
 }

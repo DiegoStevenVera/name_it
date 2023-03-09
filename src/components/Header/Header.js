@@ -3,9 +3,18 @@ import './Header.css';
 function Header() {
   return (
     <div className="Header">
-      <div className='Logo'>LOGO</div>
+      <div className='Logo'>
+        <img src='/puppy.png' alt='dog icon'></img>
+      </div>
       <ul>
-        <li className='Contact'>Contact me</li>
+        <li class='Contact'>
+          <a href='https://www.linkedin.com/in/diegosverav/' 
+          target='_blank' 
+          rel='noreferrer'
+          className='enlace'>
+            Contact me
+          </a>
+          </li>
       </ul>
     </div>
   );

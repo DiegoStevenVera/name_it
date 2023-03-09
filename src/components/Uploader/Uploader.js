@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './Uploader.css'
 
 const UploadAndDisplayImage = () => {
 
@@ -21,6 +22,7 @@ const UploadAndDisplayImage = () => {
         console.log('Success:', result);
       })
       .catch(error => {
+        setPetName('Error con el servicio consultado');
         console.error('Error:', error);
       });
   };
@@ -31,35 +33,37 @@ const UploadAndDisplayImage = () => {
   }
 
   return (
-    <div>
+    <div class="imgUploader">
       <h1>Selecciona una imagen para darle nombre</h1>
 
       {selectedImage && (
         <div>
           <img
             alt="not found"
-            width={"250px"}
+            class='imgLoad'
             src={URL.createObjectURL(selectedImage)}
           />
           <br />
-          <button onClick={() => clear()}>Remove</button>
+          <button id='removeButton' className="buttonLoad" onClick={() => clear()}>Remover</button>
         </div>
       )}
-      <div>{petName}</div>
+      <div class='petName'>{petName}</div>
       <br />
       <br />
       <form onSubmit={setImageAction}>
+        <label for="myFile" class="customButton">Seleccionar imagen</label>
         <input
         type="file"
         name="myImage"
+        id="myFile"
         onChange={(event) => {
           setSelectedImage(event.target.files[0]);
         }}
         />
         <br />
         <br />
-        <button type="submit" name="upload">
-        Upload
+        <button className="buttonLoad" type="submit" name="upload">
+        Predecir
         </button>
     </form>
 

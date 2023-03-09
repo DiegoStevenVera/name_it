@@ -9,17 +9,25 @@
 .Content .Message {
   position: relative;
   max-width: 600px;
+  padding-right: 5%;
 }
 
 .Content .Message h2 {
-  color: #ae2012;
+  color: #544646;
   font-size: 4em;
   line-height: 1.4em;
   font-weight: 500;
 }
 
+.Content .Message p {
+  color: #a68069;
+  font-size: 1.2em;
+  line-height: 1.4em;
+  font-weight: 500;
+}
+
 .Content .Response {
-  width: 600px;
+  width: 100%;
   display: flex;
   justify-content: flex-end;
 }
